@@ -6,9 +6,9 @@ pipeline {
                 echo 'My Jenkins Pipeline git hub'
             }
         }
-        stage('Hello') {
+        stage('Tambahan') {
             steps {
-                echo 'My Jenkins Pipeline git hub'
+                echo 'Tambahan edit from Git hub'
             }
         }
     }
