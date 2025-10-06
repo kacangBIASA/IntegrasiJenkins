@@ -6,5 +6,10 @@ pipeline {
                 echo 'My Jenkins Pipeline git hub'
             }
         }
+        stage('Hello') {
+            steps {
+                echo 'My Jenkins Pipeline git hub'
+            }
+        }
     }
 }
