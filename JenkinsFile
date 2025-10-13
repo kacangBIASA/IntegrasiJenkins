@@ -6,6 +6,11 @@ pipeline {
                 echo 'My Jenkins Pipeline git hub'
             }
         }
+        stage('Hello World') {
+            steps {
+                echo 'Tambahan edit from Git hub'
+            }
+        }
         stage('Tambahan') {
             steps {
                 echo 'Tambahan edit from Git hub'
